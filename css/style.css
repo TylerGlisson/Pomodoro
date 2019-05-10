@@ -1,0 +1,81 @@
+body {
+  background-color: grey;
+  text-align: center;
+  overflow: auto;
+}
+#titleTop {
+  font-family: "Roboto Slab", serif;
+  letter-spacing: -2px;
+  font-weight: 800;
+  font-size: 7em;
+  color: white;
+  background-color: #5bc6bc;
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.container-fluid {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+}
+#flexContainer {
+  align-self: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.btn {
+  border-radius: 20px;
+  background-color: #f1b812;
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 1px 9px 1px 9px;
+  font-family: "Rubik", sans-serif;
+}
+.tab {
+  display: inline-block;
+  margin-left: 4em;
+}
+.tab2 {
+  display: inline-block;
+  margin-left: 500px;
+}
+.clockTop {
+  margin-top: 8em;
+}
+.dials * {
+  display: inline-block;
+  margin: 0.5em;
+}
+.work {
+  margin-left: 5em;
+}
+.clockDisplay {
+  display: inline-block;
+  background-color: blue;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  color: white;
+  background-color: #5bc6bc;
+}
+.timer{
+  display: inline-block;
+}
+.footer {
+  margin: 4em;
+}
+
+
+
+
+
+
+
+

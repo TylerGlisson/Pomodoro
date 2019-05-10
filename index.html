@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro Clock2</title>
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Open+Sans:400,700,800|Roboto+Slab:400,700|Rubik:400,700,900|Zilla+Slab:400,700" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 id="titleTop">Pomodoro Clock</h1>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div id="flexContainer">
+      <div id="clock">
+        <h4 class="clockTop">Break Length<span class="tab">Work Length</span></h4>
+        <div class="dials">
+          <!-----BREAK-------------------->
+          <span class="breakSpan">
+            <button id="breakDown">-</button>
+            <h2 id="break">2</h2>
+            <button id="breakUp">+</button>
+          </span>
+          <!-----WORK--------------------->
+          <span class="workSpan">
+            <button id="workDown" class="work">-</button>
+            <h2 id="work">2</h2>
+            <button id="workUp">+</button>
+          </span>
+        </div>
+        <!----Timer---->
+        <div>
+          <a id="timerDisplay" href="">
+            <h1 id="currentPhase">Start Timer</h1>
+            <h2 class="timer" id="tMins">02</h2>
+            <h2 class="timer">:</h2>
+            <h2 class="timer" id="tSecs">00</h2>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer">Created by <a href="#" target="_blank">Tyler Glisson</a></p>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script  src="js/index.js"></script>
+</body>
+</html>

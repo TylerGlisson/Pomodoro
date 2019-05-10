@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at https://codepen.io/TylerGlisson/pen/gzBXGZ.
+
+ This is a timer that will allow the user to set the length of two sequentially and repetitively running countdown timers (A & B).  A will countdown for a user specified length of time (representing work time), and then B will countdown for a separate user specified length of time (representing a rest period).  At the end of B, A will begin anew and the two will endlessly cycle.  
